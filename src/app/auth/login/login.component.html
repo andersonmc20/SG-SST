@@ -1,0 +1,30 @@
+<section id="contenedor">
+
+<mat-card>
+  <form >
+    <mat-form-field>
+      <input
+      matInput
+      type="email"
+      name="email"
+      id="colorPlaceholder"
+      placeholder="Email"
+      required
+      email
+    />
+      <!-- <mat-error</mat-error> -->
+    </mat-form-field>
+    <mat-form-field>
+      <input
+      matInput
+      type="password"
+      name="password"
+      placeholder="Password"
+      required
+      />
+      <mat-error >Campo invalido</mat-error>
+    </mat-form-field>
+    <button mat-raised-button color="primary" type="submit">Login</button>
+  </form>
+</mat-card>
+</section>

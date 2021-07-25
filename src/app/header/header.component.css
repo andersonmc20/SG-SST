@@ -1,0 +1,14 @@
+/* a {
+  text-decoration: none;
+  color: rgb(202, 28, 28);
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+ */
+ .mat-toolbar {
+  background: #28eb0f;
+  color: rgba(247, 243, 243, 0.87);
+}
+
