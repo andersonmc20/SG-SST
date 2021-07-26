@@ -21,12 +21,18 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { SstComponent } from './sst/sst.component';
 import { LoginComponent } from './auth/login/login.component';
 
+
+import { RegistrarUsuariosComponent } from './auth/registrar-usuarios/registrar-usuarios.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SstComponent,
     LoginComponent,
+    RegistrarUsuariosComponent,
+
 
   ],
   imports: [

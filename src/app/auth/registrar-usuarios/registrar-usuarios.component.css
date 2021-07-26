@@ -1,0 +1,38 @@
+mat-toolbar{
+  background-color: rgb(81, 243, 81);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+mat-form-field,
+input
+{
+  width: 100%;
+}
+
+mat-card {
+  margin: 5rem 5rem;
+
+  background: -webkit-radial-gradient(center, ellipse, rgb(167, 243, 148), rgb(127, 205, 241));
+  width: 50%;
+   border-radius: 8px;
+
+   position: absolute;
+
+   left: 20%;
+   top:center;
+}

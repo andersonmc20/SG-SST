@@ -6,8 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent implements OnInit {
+  fullImagePath: string;
 
-  constructor() { }
+  constructor() {
+    this.fullImagePath = '/assets/img/logo.png'
+  }
+
 
   ngOnInit(): void {
   }

@@ -1,0 +1,163 @@
+<mat-toolbar>
+  <span>
+    <a routerLink="/">SG-SST</a>
+  </span>
+  <span class="spacer"></span>
+  <ul>
+    <li>
+      <a mat-button routerLink="/empleados" routerLinkActive="mat-accent">Empleados</a>
+    </li>
+    <li>
+      <a mat-button routerLink="/reportes" routerLinkActive="mat-accent">Reportes</a>
+    </li>
+  </ul>
+
+</mat-toolbar>
+
+<mat-card>
+<form>
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        name="tipoIdentificacion"
+
+        required
+
+        placeholder="Tipo Identificacion"
+      />
+      <!-- <mat-error *ngIf="name.invalid">Campo invalido</mat-error> -->
+    </mat-form-field>
+
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        name="numeroIdentificacion"
+
+        required
+
+        placeholder="Numedo Identificacion"
+      />
+      <!-- <mat-error *ngIf="name.invalid">Campo invalido</mat-error> -->
+    </mat-form-field>
+
+
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        name="nombreEmpleado"
+
+        required
+
+        placeholder="Nombre Empleado"
+      />
+      <!-- <mat-error *ngIf="name.invalid">Campo invalido</mat-error> -->
+    </mat-form-field>
+
+
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        name="apellidosEmpleado"
+
+        required
+
+        placeholder="Apellidos Empleado"
+      />
+      <!-- <mat-error *ngIf="name.invalid">Campo invalido</mat-error> -->
+    </mat-form-field>
+
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        name="genero"
+
+        required
+
+        placeholder="Genero"
+      />
+      <!-- <mat-error *ngIf="name.invalid">Campo invalido</mat-error> -->
+    </mat-form-field>
+
+    <mat-form-field>
+      <input
+        matInput
+        type="date"
+        name="fechaNacimiento"
+
+        required
+
+        placeholder="Fecha Nacimiento"
+      />
+      <!-- <mat-error *ngIf="name.invalid">Campo invalido</mat-error> -->
+    </mat-form-field>
+
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        name="departamento"
+
+        required
+
+        placeholder="Departamento"
+      />
+      <!-- <mat-error *ngIf="name.invalid">Campo invalido</mat-error> -->
+    </mat-form-field>
+
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        name="estado"
+
+        required
+
+        placeholder="Estado"
+      />
+      <!-- <mat-error *ngIf="name.invalid">Campo invalido</mat-error> -->
+    </mat-form-field>
+
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        name="direccionResidencia"
+
+        required
+
+        placeholder="Direccion Residencia"
+      />
+      <!-- <mat-error *ngIf="name.invalid">Campo invalido</mat-error> -->
+    </mat-form-field>
+
+    <mat-form-field>
+      <input
+        matInput
+        type="email"
+        name="email"
+
+        placeholder="Email"
+        required
+        email
+      />
+      <!-- <mat-error *ngIf="email.invalid">Campo invalido</mat-error> -->
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        type="password"
+        name="password"
+
+        placeholder="Password"
+        required
+      />
+      <!-- <mat-error *ngIf="password.invalid">Campo invalido</mat-error> -->
+    </mat-form-field>
+    <button mat-raised-button color="primary" type="submit">Registrarse</button>
+  </form>
+</mat-card>

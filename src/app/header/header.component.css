@@ -1,14 +1,35 @@
-/* a {
+mat-toolbar{
+  background-color: rgb(9, 214, 9);
+
+}
+
+.titulo{
+  color: aliceblue;
+  padding: 0;
+  margin: 0;
+  display:block;
+  text-align: center;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+a {
   text-decoration: none;
-  color: rgb(202, 28, 28);
+  color: white;
 }
 
 .spacer {
   flex: 1 1 auto;
 }
- */
- .mat-toolbar {
-  background: #28eb0f;
-  color: rgba(247, 243, 243, 0.87);
+
+.button{
+  color: white;
+
 }
 
